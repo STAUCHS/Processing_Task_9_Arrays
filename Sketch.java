@@ -7,7 +7,7 @@ public class Sketch extends PApplet {
   }
 
   public void setup() {
-    background(210, 255, 173);
+    background(0);
   }
 
   public void draw() {
