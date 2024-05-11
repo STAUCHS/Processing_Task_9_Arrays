@@ -32,6 +32,10 @@ Extend the Level 3 program with:
 
 **HINT:** You will need to declare a `ballHideStatus` related array that stores the state of each snowball. The elements of this array will be defaulted to `false`. When a snowball is clicked on, the snowball's corresponding `ballHideStatus` will be set to `true` and the snowball will no longer be drawn to the screen.
 
+<span style="color:red">
+<b>NOTE: It would be a good idea to make use of <ins>methods</ins> here.</b>
+</span>
+
 ## Submission
 1. Commit and push your code to this repository
 2. Take a screen recording of your work and upload it to the Google Classroom assignment post.
