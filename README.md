@@ -11,17 +11,26 @@ Acquire the learning objectives by reviewing [this page in happycoding.io](https
 Demonstrate your learning objectives by implementing the following:
   
 ### Level 2
-Create a sketch that simulates snow falling. When the down arrow is pressed on the keyboard, the snow falls faster.  Likewise, the snow falls slower when the up arrow is pressed.  Note: instead of setting your x-values of the snowballs to be a function of the randomly generated y (see the example [in happycoding.io](https://happycoding.io/tutorials/processing/arrays), you can have a related array of x values for your snowflakes and initialize them to be at randoml generated locations (just like the y values).
+Create a sketch that simulates snow falling. When the down arrow is pressed on the keyboard, the snow falls faster.  Likewise, the snow falls slower when the up arrow is pressed. NOTE: In the tutorial, they set the x-values in terms of the randomly generated y values. INSTEAD, what you are going to do is:
+1. Create an array of randomly generated y-values for the snowflakes. These y-values should cause the snowflakes to *start off screen* and fall into the screen
+2. Create a **related array** of randomly generated x-values for the snowflakes (This is different from the tutorial)
   
 ### Level 3
-Extend your snowfall progam by adding a blue player circle that is controlled by the user with the asdw keys.  (left, down, right , up).  Add a three squares at the top right of the screen to indicate player lives.  The player loses a life everytime it collides with snowflake.  The game ends when all lives are lost and the screen clears to white.
+Extend your snowfall progam by:
+1. Adding a blue player circle (or an image if you'd like) that is controlled by the user with the WASD keys. 
+2. Add a three squares at the top right of the screen to indicate player lives. The player loses a life everytime it collides with a snowflake. 
+3. The game ends when all lives are lost and the screen clears to white.
   
 ### Level 4
-Extend the Level 3 program with mouse control such that while the player is controlled with the left hand (with keyboard), the mouse can be used to click on snowflakes and make them disappear if they are clicked on.  You may need to make the snowflakes bigger so they are easier to click on.    **HINT:** you will need to introduce an additional "ballHideStatus" related array that stores the state of each snowball.  The elements of this array will be defaulted to `false`. When a snowball is clicked on, the snowball's corresponding ballHideStatus will be set to `true` and the snowball will no longer be drawn to the screen.
+Extend the Level 3 program with:
+1. Mouse control such that while the player is controlled with the left hand (with keyboard), the mouse can be used to click on snowflakes and make them disappear if they are clicked on. You may need to make the snowflakes bigger so they are easier to click on.
 
+**HINT:** You will need to declare a `ballHideStatus` related array that stores the state of each snowball. The elements of this array will be defaulted to `false`. When a snowball is clicked on, the snowball's corresponding `ballHideStatus` will be set to `true` and the snowball will no longer be drawn to the screen.
 
 ## Submission
 1. Commit and push your code to this repository
 2. Take a screen recording of your work and upload it to the Google Classroom assignment post.
-3. Javadoc comment all methods
-4. Apply appropriate style and variable naming conventions.
+
+**Make sure to:**
+- Javadoc comment all methods
+- Apply appropriate style and variable naming conventions.
