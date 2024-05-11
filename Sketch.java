@@ -14,5 +14,5 @@ public class Sketch extends PApplet {
     
   }
   
-  // All other define methods are written below:
+  // All other defined methods are written below:
 }
